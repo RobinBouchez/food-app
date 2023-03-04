@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { RatingModule } from 'ng-starrating';
 import { SearchComponent } from './search/search.component';
 
+import {FormsModule} from '@angular/forms'; 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +22,7 @@ import { SearchComponent } from './search/search.component';
     BrowserModule,
     AppRoutingModule,
     RatingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
