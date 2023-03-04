@@ -11,7 +11,8 @@
   max-width: 40rem;
 }
 
-img {
+img
+{
   border-radius: 3rem;
   flex: 1 0;
   object-fit: cover;

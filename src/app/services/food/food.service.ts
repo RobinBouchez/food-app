@@ -10,8 +10,9 @@ export class FoodService {
 
   getAllTags():Tag[] {
     return [
-      { name: 'All', count: 0 },
+      { name: 'All', count: 2 },
       { name: 'Pizza', count: 1 },
+      { name: 'Burger', count: 1 },
     ];
   }
 
@@ -36,25 +37,25 @@ export class FoodService {
     return [
       {
         id: 1,
-        name: 'pizza',
-        price: 9,
+        name: 'Pizza',
+        price: 13,
         cookTime: '40 - 50',
-        origins: ['italy'],
+        origins: ['Italy'],
         favorite: false,
         stars: 4.0,
         imageUrl: '/assets/images/food1.jpg',
-        tags: ['food', 'pizza'],
+        tags: ['food', 'Pizza'],
       },
       {
-        id: 1,
-        name: 'Fuck You Burger',
+        id: 2,
+        name: 'Burger',
         price: 9,
         favorite: true,
         cookTime: '40 - 50',
-        origins: ['italy'],
-        stars: 4.0,
+        origins: ['USA'],
+        stars: 5.0,
         imageUrl: '/assets/images/food2.jpg',
-        tags: ['food', 'pizza'],
+        tags: ['food', 'Burger'],
       },
     ];
   }

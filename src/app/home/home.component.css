@@ -4,7 +4,7 @@ ul{
     align-items: center;
     flex-wrap: wrap;
     list-style-type: none;
-    padding: 0;    
+    padding: 0;
 }
 
 ul li a{
@@ -17,6 +17,11 @@ ul li a{
     flex-direction: column;
     overflow: hidden;
     color: rgb(119, 207, 68);
+}
+
+img {
+  max-height: 13rem;
+  object-fit: cover;
 }
 
 li a:hover{

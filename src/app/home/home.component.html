@@ -9,15 +9,15 @@
                 {{food.name}}
             </div>
             <span class="favorite {{food.favorite?'':'not'}}">
-                ♥
+              ❤
             </span>
             <div class="stars" style="text-align:left">
-                <star-rating 
-                [value]="food.stars" 
-                [totalstars]="5" 
-                checkedcolor="green" 
-                uncheckedcolor="black" 
-                size="20px" 
+                <star-rating
+                [value]="food.stars"
+                [totalstars]="5"
+                checkedcolor="green"
+                uncheckedcolor="black"
+                size="20px"
                 [readonly]="true" >
             </star-rating>
         </div>
@@ -29,8 +29,8 @@
                     <span>🕒</span>
                     {{food.cookTime}}
                 </div>
-            </div>  
-            <div class="price"><span>{{food.price|currency}}</span></div>          
+            </div>
+            <div class="price"><span>{{food.price|currency}}</span></div>
         </div>
     </a>
     </li>
